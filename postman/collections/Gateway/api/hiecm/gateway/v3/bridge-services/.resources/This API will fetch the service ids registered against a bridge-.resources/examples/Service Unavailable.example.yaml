@@ -1,0 +1,32 @@
+$kind: http-example
+request:
+  url: "{{baseUrl}}/api/hiecm/gateway/v3/bridge-services"
+  method: GET
+  headers:
+    - key: REQUEST-ID
+      value: 18235d89-cb13-479d-ad71-7a57d5f669a8
+      description: Unique UUID for track the end to end request transaction
+    - key: TIMESTAMP
+      value: 2022-10-06T15:10:00.587Z
+      description: Actual time of the request was initiated, ISO 8601 represents date and time by starting with the year, followed by the month, the day, the hour, the minutes, seconds and milliseconds
+    - key: X-CM-ID
+      value: sbx
+      description: Suffix of the consent manager to which the request was intended
+    - key: Accept
+      value: application/json
+    - key: Authorization
+      value: Bearer <token>
+      description: "Added as a part of security scheme: bearer"
+response:
+  statusCode: 503
+  statusText: Service Unavailable
+  headers:
+    Content-Type: application/json
+  body:
+    type: json
+    content: |-
+      {
+        "code": "ABDM-1024",
+        "message": "Dependent service unavailable"
+      }
+order: 6000

@@ -1,0 +1,32 @@
+$kind: http-request
+name: This API is invoked to update the bridge URL.
+description: This API is designed to update the URL of a bridge. When invoked, it allows users to modify the existing URL associated with a specific bridge. This functionality is crucial for maintaining accurate and up-to-date connection information within the network. By using this API, administrators can ensure that the bridge URL reflects the current configuration and routing requirements, facilitating seamless communication and integration between different services in the form of webhook site.
+url: "{{baseUrl}}/api/hiecm/gateway/v3/bridge/url"
+method: PATCH
+headers:
+  - key: REQUEST-ID
+    value: 18235d89-cb13-479d-ad71-7a57d5f669a8
+    description: Unique UUID for track the end to end request transaction
+  - key: TIMESTAMP
+    value: 2022-10-06T15:10:00.587Z
+    description: Actual time of the request was initiated, ISO 8601 represents date and time by starting with the year, followed by the month, the day, the hour, the minutes, seconds and milliseconds
+  - key: X-CM-ID
+    value: sbx
+    description: Suffix of the consent manager to which the request was intended
+  - key: Content-Type
+    value: application/json
+  - key: Accept
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "url": "https://webhook.site/"
+    }
+auth:
+  type: bearer
+  credentials:
+    token: "{{bearerToken}}"
+settings: {}
+examples: ./.resources/This API is invoked to update the bridge URL-.resources/examples
+order: 1000

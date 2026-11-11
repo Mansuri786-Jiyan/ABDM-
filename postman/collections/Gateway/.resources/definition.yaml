@@ -1,0 +1,10 @@
+$kind: collection
+description: ""
+variables:
+  - key: baseUrl
+    value: https://dev.abdm.gov.in
+    disabled: false
+    secret: false
+  - key: json_web_token_1bs0
+    secret: true
+    disabled: false

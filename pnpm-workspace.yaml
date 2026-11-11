@@ -1,0 +1,7 @@
+allowBuilds:
+  '@prisma/client': true
+  '@prisma/engines': true
+  '@scarf/scarf': true
+  bcrypt: set this to true or false
+  esbuild: true
+  prisma: true

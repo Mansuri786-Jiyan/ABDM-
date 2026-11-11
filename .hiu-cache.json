@@ -1,0 +1,1680 @@
+{
+  "consentRequests": {
+    "CR-6625CDE2": {
+      "id": "590de334-5dac-4bf0-90fd-5ed0cb656e56",
+      "consentRequestId": "CR-6625CDE2",
+      "patientId": "mansurijiyan2004@sbx",
+      "patientName": "Mansuri Jiyan",
+      "hiuId": "Mohan_HIP",
+      "requesterName": "Dr. Sharma",
+      "purpose": {
+        "code": "CAREMGT",
+        "text": "Care Management"
+      },
+      "hiTypes": [
+        "OPConsultation",
+        "Prescription",
+        "DischargeSummary",
+        "DiagnosticReport",
+        "ImmunizationRecord",
+        "WellnessRecord"
+      ],
+      "status": "REVOKED",
+      "dateRange": {
+        "from": "2020-01-01T00:00:00.000Z",
+        "to": "2026-11-05T11:06:31.031Z"
+      },
+      "dataEraseAt": "2026-12-05T11:06:31.031Z",
+      "createdAt": "2026-11-05T11:06:31.499Z",
+      "updatedAt": "2026-11-05T11:06:31.520Z",
+      "consentId": "CONSENT-ARTEFACT-M3-001"
+    },
+    "CR-0A70E1C5": {
+      "id": "20817019-f916-49ea-a71a-94031b9516c2",
+      "consentRequestId": "CR-0A70E1C5",
+      "patientId": "mansurijiyan2004@sbx",
+      "patientName": "Mansuri Jiyan",
+      "hiuId": "Mohan_HIP",
+      "requesterName": "Dr. Sharma",
+      "purpose": {
+        "code": "CAREMGT",
+        "text": "Care Management"
+      },
+      "hiTypes": [
+        "OPConsultation",
+        "Prescription",
+        "DischargeSummary",
+        "DiagnosticReport",
+        "ImmunizationRecord",
+        "WellnessRecord"
+      ],
+      "status": "GRANTED",
+      "dateRange": {
+        "from": "2020-01-01T00:00:00.000Z",
+        "to": "2026-11-05T11:06:50.272Z"
+      },
+      "dataEraseAt": "2026-12-05T11:06:50.272Z",
+      "createdAt": "2026-11-05T11:06:50.590Z",
+      "updatedAt": "2026-11-05T11:06:50.621Z",
+      "consentId": "CONSENT-ARTEFACT-WEBHOOK-999"
+    },
+    "CR-840FAB72": {
+      "id": "26063c38-1976-47c0-8750-fed6293d9437",
+      "consentRequestId": "CR-840FAB72",
+      "patientId": "mansurijiyan2004@sbx",
+      "patientName": "Mansuri Jiyan",
+      "hiuId": "Mohan_HIP",
+      "requesterName": "Dr. Sharma",
+      "purpose": {
+        "code": "CAREMGT",
+        "text": "Care Management"
+      },
+      "hiTypes": [
+        "OPConsultation",
+        "Prescription",
+        "DiagnosticReport"
+      ],
+      "status": "REVOKED",
+      "dateRange": {
+        "from": "2020-01-01T00:00:00.000Z",
+        "to": "2026-11-05T11:10:08.532Z"
+      },
+      "dataEraseAt": "2026-12-05T11:10:08.532Z",
+      "createdAt": "2026-11-05T11:10:08.645Z",
+      "updatedAt": "2026-11-05T11:10:08.656Z",
+      "consentId": "CONSENT-3D1AF229"
+    },
+    "CR-D6B865D9": {
+      "id": "d7de075a-7754-4bf8-ad64-455c23208679",
+      "consentRequestId": "CR-D6B865D9",
+      "patientId": "mansurijiyan2004@sbx",
+      "patientName": "Selected Patient",
+      "hiuId": "Mohan_HIP",
+      "requesterName": "Dr. Sharma",
+      "purpose": {
+        "code": "CAREMGT",
+        "text": "OPD Consultation & Care Review"
+      },
+      "hiTypes": [
+        "OPConsultation",
+        "Prescription",
+        "DiagnosticReport"
+      ],
+      "status": "REQUESTED",
+      "dateRange": {
+        "from": "2024-01-01",
+        "to": "2026-11-05"
+      },
+      "dataEraseAt": "2026-12-05T13:22:06.887Z",
+      "createdAt": "2026-11-05T13:22:07.334Z",
+      "updatedAt": "2026-11-05T13:22:07.334Z"
+    },
+    "CR-EB946AB0": {
+      "id": "ccf6fe3f-5831-4d3e-a658-01c942b7abc1",
+      "consentRequestId": "CR-EB946AB0",
+      "patientId": "mansurijiyan2004@sbx",
+      "patientName": "Selected Patient",
+      "hiuId": "Mohan_HIP",
+      "requesterName": "Dr. Sharma",
+      "purpose": {
+        "code": "CAREMGT",
+        "text": "OPD Consultation & Care Review"
+      },
+      "hiTypes": [
+        "OPConsultation",
+        "Prescription",
+        "DiagnosticReport"
+      ],
+      "status": "REVOKED",
+      "dateRange": {
+        "from": "2024-01-01",
+        "to": "2026-11-05"
+      },
+      "dataEraseAt": "2026-12-05T13:22:24.191Z",
+      "createdAt": "2026-11-05T13:22:24.324Z",
+      "updatedAt": "2026-11-05T13:22:24.340Z",
+      "consentId": "CONSENT-D0EEE069"
+    },
+    "CR-BC2A15D0": {
+      "id": "37e97108-9686-46d8-ac3a-bcdd2357e0ad",
+      "consentRequestId": "CR-BC2A15D0",
+      "patientId": "mansurijiyan2004@sbx",
+      "patientName": "Mansuri Jiyan",
+      "hiuId": "Mohan_HIP",
+      "requesterName": "Dr. Sharma",
+      "purpose": {
+        "code": "CAREMGT",
+        "text": "Care Management"
+      },
+      "hiTypes": [
+        "OPConsultation",
+        "DiagnosticReport",
+        "DischargeSummary"
+      ],
+      "status": "GRANTED",
+      "dateRange": {
+        "from": "2020-01-01T00:00:00.000Z",
+        "to": "2026-11-06T11:05:20.188Z"
+      },
+      "dataEraseAt": "2026-12-06T11:05:20.188Z",
+      "createdAt": "2026-11-06T11:05:20.311Z",
+      "updatedAt": "2026-11-06T11:13:17.643Z",
+      "consentId": "CONSENT-7B1A1BDF"
+    },
+    "CR-8B4E9DBA": {
+      "id": "bdc39110-d07a-4a97-ae9b-ca8f2086a7ec",
+      "consentRequestId": "CR-8B4E9DBA",
+      "patientId": "mansurijiyan2004@sbx",
+      "patientName": "Mansuri Jiyan",
+      "hiuId": "Mohan_HIP",
+      "requesterName": "Dr. Sharma",
+      "purpose": {
+        "code": "CAREMGT",
+        "text": "Care Management"
+      },
+      "hiTypes": [
+        "OPConsultation",
+        "DiagnosticReport",
+        "DischargeSummary"
+      ],
+      "status": "GRANTED",
+      "dateRange": {
+        "from": "2020-01-01T00:00:00.000Z",
+        "to": "2026-11-06T13:54:42.426Z"
+      },
+      "dataEraseAt": "2026-12-06T13:54:42.426Z",
+      "createdAt": "2026-11-06T13:54:42.682Z",
+      "updatedAt": "2026-11-06T14:04:22.528Z",
+      "consentId": "CONSENT-C06D8CE8"
+    },
+    "CR-4C1517DA": {
+      "id": "514731d8-6dbb-4f30-ac76-b9249a9ec766",
+      "consentRequestId": "CR-4C1517DA",
+      "patientId": "demopatient@sbx",
+      "patientName": "Selected Patient",
+      "hiuId": "Mohan_HIP",
+      "requesterName": "Dr. Sharma",
+      "purpose": {
+        "code": "CAREMGT",
+        "text": "Care Management"
+      },
+      "hiTypes": [
+        "OPConsultation",
+        "Prescription",
+        "DischargeSummary",
+        "DiagnosticReport",
+        "ImmunizationRecord",
+        "WellnessRecord"
+      ],
+      "status": "GRANTED",
+      "dateRange": {
+        "from": "2020-01-01T00:00:00.000Z",
+        "to": "2026-11-08T06:20:42.821Z"
+      },
+      "dataEraseAt": "2026-12-08T06:20:42.821Z",
+      "createdAt": "2026-11-08T06:20:43.037Z",
+      "updatedAt": "2026-11-08T06:20:43.091Z",
+      "consentId": "CONSENT-ARTEFACT-WEBHOOK-999"
+    },
+    "CR-298D17EC": {
+      "id": "cb14eb05-dd2d-4041-a77d-b29589a64364",
+      "consentRequestId": "CR-298D17EC",
+      "patientId": "mansurijiyan2004@sbx",
+      "patientName": "Mansuri Jiyan",
+      "hiuId": "Mohan_HIP",
+      "requesterName": "Dr. Sharma",
+      "purpose": {
+        "code": "CAREMGT",
+        "text": "Care Management"
+      },
+      "hiTypes": [
+        "OPConsultation",
+        "DiagnosticReport",
+        "DischargeSummary"
+      ],
+      "status": "REQUESTED",
+      "dateRange": {
+        "from": "2020-01-01T00:00:00.000Z",
+        "to": "2026-11-10T14:21:24.872Z"
+      },
+      "dataEraseAt": "2026-12-10T14:21:24.872Z",
+      "createdAt": "2026-11-10T14:21:25.496Z",
+      "updatedAt": "2026-11-10T14:21:25.496Z"
+    },
+    "CR-D87F840F": {
+      "id": "71b66eea-bb09-4b0d-9744-09e7dab0dfa9",
+      "consentRequestId": "CR-D87F840F",
+      "patientId": "mansurijiyan2004@sbx",
+      "patientName": "Mansuri Jiyan",
+      "hiuId": "Mohan_HIP",
+      "requesterName": "Dr. Sharma",
+      "purpose": {
+        "code": "CAREMGT",
+        "text": "Care Management"
+      },
+      "hiTypes": [
+        "OPConsultation",
+        "DiagnosticReport",
+        "DischargeSummary"
+      ],
+      "status": "REQUESTED",
+      "dateRange": {
+        "from": "2020-01-01T00:00:00.000Z",
+        "to": "2026-11-11T07:47:19.749Z"
+      },
+      "dataEraseAt": "2026-12-11T07:47:19.749Z",
+      "createdAt": "2026-11-11T07:47:20.142Z",
+      "updatedAt": "2026-11-11T07:47:20.142Z"
+    }
+  },
+  "clinicalRecords": {
+    "CONSENT-JIYAN-2026-01": [
+      {
+        "id": "rec-op-01",
+        "consentId": "CONSENT-JIYAN-2026-01",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "OPConsultation",
+        "careContextReference": "OPD-VISIT-2026-9901",
+        "title": "General Medicine Consultation",
+        "author": "Dr. Sharma, MD",
+        "date": "2026-11-05",
+        "fhirResource": {
+          "resourceType": "Bundle",
+          "type": "document",
+          "entry": [
+            {
+              "resource": {
+                "resourceType": "Composition",
+                "status": "final",
+                "type": {
+                  "text": "OP Consultation Note"
+                },
+                "title": "OPD Visit Consultation"
+              }
+            },
+            {
+              "resource": {
+                "resourceType": "Condition",
+                "code": {
+                  "text": "Acute Viral Pharyngitis & Mild Fever"
+                }
+              }
+            }
+          ]
+        },
+        "summary": {
+          "chiefComplaint": "Fever (100.2 F) and sore throat for 2 days",
+          "diagnosis": "Acute Viral Pharyngitis",
+          "vitals": {
+            "BP": "120/80 mmHg",
+            "Pulse": "78 bpm",
+            "Temp": "100.2 F",
+            "SpO2": "99%"
+          },
+          "advice": "Adequate hydration, warm saline gargles, and review if fever persists."
+        }
+      },
+      {
+        "id": "rec-rx-01",
+        "consentId": "CONSENT-JIYAN-2026-01",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "Prescription",
+        "careContextReference": "PRESCRIPTION-2026-88",
+        "title": "Cardio & Fever Prescription",
+        "author": "Dr. Sharma, MD",
+        "date": "2026-11-05",
+        "fhirResource": {
+          "resourceType": "MedicationRequest",
+          "status": "active",
+          "intent": "order",
+          "medicationCodeableConcept": {
+            "text": "Paracetamol 650mg & Azithromycin 500mg"
+          }
+        },
+        "summary": {
+          "medications": [
+            {
+              "name": "Paracetamol 650mg",
+              "dosage": "1 tablet TDS after meals",
+              "duration": "3 days"
+            },
+            {
+              "name": "Azithromycin 500mg",
+              "dosage": "1 tablet OD",
+              "duration": "3 days"
+            },
+            {
+              "name": "Vitamin C 500mg",
+              "dosage": "1 tablet daily",
+              "duration": "7 days"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rec-ds-01",
+        "consentId": "CONSENT-JIYAN-2026-01",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "DischargeSummary",
+        "careContextReference": "IPD-DISCHARGE-2025-44",
+        "title": "Hospital Discharge Summary",
+        "author": "Dr. R. Mehta, Senior Consultant",
+        "date": "2025-08-15",
+        "fhirResource": {
+          "resourceType": "ClinicalImpression",
+          "status": "completed",
+          "description": "Patient recovered uneventfully following elective observation."
+        },
+        "summary": {
+          "admissionDate": "2025-08-12",
+          "dischargeDate": "2025-08-15",
+          "dischargeCondition": "Stable, ambulatory",
+          "treatmentGiven": "Supportive IV fluids, antibiotics, monitoring"
+        }
+      },
+      {
+        "id": "rec-lab-01",
+        "consentId": "CONSENT-JIYAN-2026-01",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "DiagnosticReport",
+        "careContextReference": "LAB-REPORT-2026-301",
+        "title": "Complete Blood Count (CBC) & Lipid Profile",
+        "author": "Dr. K. Patel, Pathologist",
+        "date": "2026-11-04",
+        "fhirResource": {
+          "resourceType": "DiagnosticReport",
+          "status": "final",
+          "code": {
+            "text": "Complete Blood Count"
+          }
+        },
+        "summary": {
+          "hemoglobin": "14.8 g/dL (Normal)",
+          "WBC": "7,200 /mcL (Normal)",
+          "platelets": "240,000 /mcL (Normal)",
+          "totalCholesterol": "175 mg/dL (Desirable)"
+        }
+      },
+      {
+        "id": "rec-im-01",
+        "consentId": "CONSENT-JIYAN-2026-01",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "ImmunizationRecord",
+        "careContextReference": "IMMUNIZATION-2021-99",
+        "title": "COVID-19 & Tetanus Immunization",
+        "author": "Civil Health Center Ahmedabad",
+        "date": "2021-09-20",
+        "fhirResource": {
+          "resourceType": "Immunization",
+          "status": "completed",
+          "vaccineCode": {
+            "text": "COVID-19 Vaccine (Covishield)"
+          }
+        },
+        "summary": {
+          "vaccine": "Covishield (Dose 1 & 2)",
+          "status": "Completed",
+          "boosterDate": "2022-04-10"
+        }
+      },
+      {
+        "id": "rec-well-01",
+        "consentId": "CONSENT-JIYAN-2026-01",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "WellnessRecord",
+        "careContextReference": "WELLNESS-2026-01",
+        "title": "Annual Physical & Wellness Assessment",
+        "author": "Dr. Sharma, MD",
+        "date": "2026-10-10",
+        "fhirResource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "category": [
+            {
+              "text": "vital-signs"
+            }
+          ]
+        },
+        "summary": {
+          "height": "178 cm",
+          "weight": "72 kg",
+          "BMI": "22.7 (Normal weight)",
+          "bloodSugarFasting": "92 mg/dL (Normal)",
+          "lifestyleAdvice": "Regular moderate aerobic exercise (30 mins/day)"
+        }
+      }
+    ],
+    "CONSENT-ARTEFACT-M3-001": [
+      {
+        "id": "c0ac7c2a-12b9-45c0-afef-a906c95ea948",
+        "consentId": "CONSENT-ARTEFACT-M3-001",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "OPConsultation",
+        "careContextReference": "OPD-VISIT-2026-9901",
+        "title": "General Medicine Consultation",
+        "author": "Dr. Sharma, MD",
+        "date": "2026-11-05",
+        "fhirResource": {
+          "resourceType": "Bundle",
+          "type": "document",
+          "entry": [
+            {
+              "resource": {
+                "resourceType": "Composition",
+                "status": "final",
+                "type": {
+                  "text": "OP Consultation Note"
+                },
+                "title": "OPD Visit Consultation"
+              }
+            },
+            {
+              "resource": {
+                "resourceType": "Condition",
+                "code": {
+                  "text": "Acute Viral Pharyngitis & Mild Fever"
+                }
+              }
+            }
+          ]
+        },
+        "summary": {
+          "chiefComplaint": "Fever (100.2 F) and sore throat for 2 days",
+          "diagnosis": "Acute Viral Pharyngitis",
+          "vitals": {
+            "BP": "120/80 mmHg",
+            "Pulse": "78 bpm",
+            "Temp": "100.2 F",
+            "SpO2": "99%"
+          },
+          "advice": "Adequate hydration, warm saline gargles, and review if fever persists."
+        }
+      },
+      {
+        "id": "36a362fe-0aaa-4a01-a220-3f77a0e4cdf1",
+        "consentId": "CONSENT-ARTEFACT-M3-001",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "Prescription",
+        "careContextReference": "PRESCRIPTION-2026-88",
+        "title": "Cardio & Fever Prescription",
+        "author": "Dr. Sharma, MD",
+        "date": "2026-11-05",
+        "fhirResource": {
+          "resourceType": "MedicationRequest",
+          "status": "active",
+          "intent": "order",
+          "medicationCodeableConcept": {
+            "text": "Paracetamol 650mg & Azithromycin 500mg"
+          }
+        },
+        "summary": {
+          "medications": [
+            {
+              "name": "Paracetamol 650mg",
+              "dosage": "1 tablet TDS after meals",
+              "duration": "3 days"
+            },
+            {
+              "name": "Azithromycin 500mg",
+              "dosage": "1 tablet OD",
+              "duration": "3 days"
+            },
+            {
+              "name": "Vitamin C 500mg",
+              "dosage": "1 tablet daily",
+              "duration": "7 days"
+            }
+          ]
+        }
+      },
+      {
+        "id": "cb7086a4-cd57-4b82-a11a-aace375980ee",
+        "consentId": "CONSENT-ARTEFACT-M3-001",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "DischargeSummary",
+        "careContextReference": "IPD-DISCHARGE-2025-44",
+        "title": "Hospital Discharge Summary",
+        "author": "Dr. R. Mehta, Senior Consultant",
+        "date": "2025-08-15",
+        "fhirResource": {
+          "resourceType": "ClinicalImpression",
+          "status": "completed",
+          "description": "Patient recovered uneventfully following elective observation."
+        },
+        "summary": {
+          "admissionDate": "2025-08-12",
+          "dischargeDate": "2025-08-15",
+          "dischargeCondition": "Stable, ambulatory",
+          "treatmentGiven": "Supportive IV fluids, antibiotics, monitoring"
+        }
+      },
+      {
+        "id": "747ed44f-1660-403e-bf1b-864da51149a8",
+        "consentId": "CONSENT-ARTEFACT-M3-001",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "DiagnosticReport",
+        "careContextReference": "LAB-REPORT-2026-301",
+        "title": "Complete Blood Count (CBC) & Lipid Profile",
+        "author": "Dr. K. Patel, Pathologist",
+        "date": "2026-11-04",
+        "fhirResource": {
+          "resourceType": "DiagnosticReport",
+          "status": "final",
+          "code": {
+            "text": "Complete Blood Count"
+          }
+        },
+        "summary": {
+          "hemoglobin": "14.8 g/dL (Normal)",
+          "WBC": "7,200 /mcL (Normal)",
+          "platelets": "240,000 /mcL (Normal)",
+          "totalCholesterol": "175 mg/dL (Desirable)"
+        }
+      },
+      {
+        "id": "1d541101-d2eb-4d57-b65d-a7e199138794",
+        "consentId": "CONSENT-ARTEFACT-M3-001",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "ImmunizationRecord",
+        "careContextReference": "IMMUNIZATION-2021-99",
+        "title": "COVID-19 & Tetanus Immunization",
+        "author": "Civil Health Center Ahmedabad",
+        "date": "2021-09-20",
+        "fhirResource": {
+          "resourceType": "Immunization",
+          "status": "completed",
+          "vaccineCode": {
+            "text": "COVID-19 Vaccine (Covishield)"
+          }
+        },
+        "summary": {
+          "vaccine": "Covishield (Dose 1 & 2)",
+          "status": "Completed",
+          "boosterDate": "2022-04-10"
+        }
+      },
+      {
+        "id": "16e0f339-6009-4b2a-9114-e5228ac1010e",
+        "consentId": "CONSENT-ARTEFACT-M3-001",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "WellnessRecord",
+        "careContextReference": "WELLNESS-2026-01",
+        "title": "Annual Physical & Wellness Assessment",
+        "author": "Dr. Sharma, MD",
+        "date": "2026-10-10",
+        "fhirResource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "category": [
+            {
+              "text": "vital-signs"
+            }
+          ]
+        },
+        "summary": {
+          "height": "178 cm",
+          "weight": "72 kg",
+          "BMI": "22.7 (Normal weight)",
+          "bloodSugarFasting": "92 mg/dL (Normal)",
+          "lifestyleAdvice": "Regular moderate aerobic exercise (30 mins/day)"
+        }
+      }
+    ],
+    "CONSENT-ARTEFACT-WEBHOOK-999": [
+      {
+        "id": "ee0d3d8f-c0e8-49d2-8494-48455120e26a",
+        "consentId": "CONSENT-ARTEFACT-WEBHOOK-999",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "OPConsultation",
+        "careContextReference": "OPD-VISIT-2026-9901",
+        "title": "General Medicine Consultation",
+        "author": "Dr. Sharma, MD",
+        "date": "2026-11-05",
+        "fhirResource": {
+          "resourceType": "Bundle",
+          "type": "document",
+          "entry": [
+            {
+              "resource": {
+                "resourceType": "Composition",
+                "status": "final",
+                "type": {
+                  "text": "OP Consultation Note"
+                },
+                "title": "OPD Visit Consultation"
+              }
+            },
+            {
+              "resource": {
+                "resourceType": "Condition",
+                "code": {
+                  "text": "Acute Viral Pharyngitis & Mild Fever"
+                }
+              }
+            }
+          ]
+        },
+        "summary": {
+          "chiefComplaint": "Fever (100.2 F) and sore throat for 2 days",
+          "diagnosis": "Acute Viral Pharyngitis",
+          "vitals": {
+            "BP": "120/80 mmHg",
+            "Pulse": "78 bpm",
+            "Temp": "100.2 F",
+            "SpO2": "99%"
+          },
+          "advice": "Adequate hydration, warm saline gargles, and review if fever persists."
+        }
+      },
+      {
+        "id": "7051913d-b597-4768-ac6c-7a387c936b26",
+        "consentId": "CONSENT-ARTEFACT-WEBHOOK-999",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "Prescription",
+        "careContextReference": "PRESCRIPTION-2026-88",
+        "title": "Cardio & Fever Prescription",
+        "author": "Dr. Sharma, MD",
+        "date": "2026-11-05",
+        "fhirResource": {
+          "resourceType": "MedicationRequest",
+          "status": "active",
+          "intent": "order",
+          "medicationCodeableConcept": {
+            "text": "Paracetamol 650mg & Azithromycin 500mg"
+          }
+        },
+        "summary": {
+          "medications": [
+            {
+              "name": "Paracetamol 650mg",
+              "dosage": "1 tablet TDS after meals",
+              "duration": "3 days"
+            },
+            {
+              "name": "Azithromycin 500mg",
+              "dosage": "1 tablet OD",
+              "duration": "3 days"
+            },
+            {
+              "name": "Vitamin C 500mg",
+              "dosage": "1 tablet daily",
+              "duration": "7 days"
+            }
+          ]
+        }
+      },
+      {
+        "id": "fe3b13a5-443d-4348-8ce7-bfa4d39774d0",
+        "consentId": "CONSENT-ARTEFACT-WEBHOOK-999",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "DischargeSummary",
+        "careContextReference": "IPD-DISCHARGE-2025-44",
+        "title": "Hospital Discharge Summary",
+        "author": "Dr. R. Mehta, Senior Consultant",
+        "date": "2025-08-15",
+        "fhirResource": {
+          "resourceType": "ClinicalImpression",
+          "status": "completed",
+          "description": "Patient recovered uneventfully following elective observation."
+        },
+        "summary": {
+          "admissionDate": "2025-08-12",
+          "dischargeDate": "2025-08-15",
+          "dischargeCondition": "Stable, ambulatory",
+          "treatmentGiven": "Supportive IV fluids, antibiotics, monitoring"
+        }
+      },
+      {
+        "id": "ef1c301c-e242-4f79-bcbf-691be069f000",
+        "consentId": "CONSENT-ARTEFACT-WEBHOOK-999",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "DiagnosticReport",
+        "careContextReference": "LAB-REPORT-2026-301",
+        "title": "Complete Blood Count (CBC) & Lipid Profile",
+        "author": "Dr. K. Patel, Pathologist",
+        "date": "2026-11-04",
+        "fhirResource": {
+          "resourceType": "DiagnosticReport",
+          "status": "final",
+          "code": {
+            "text": "Complete Blood Count"
+          }
+        },
+        "summary": {
+          "hemoglobin": "14.8 g/dL (Normal)",
+          "WBC": "7,200 /mcL (Normal)",
+          "platelets": "240,000 /mcL (Normal)",
+          "totalCholesterol": "175 mg/dL (Desirable)"
+        }
+      },
+      {
+        "id": "aee8cfb8-36a1-4efd-8f18-93c99a427462",
+        "consentId": "CONSENT-ARTEFACT-WEBHOOK-999",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "ImmunizationRecord",
+        "careContextReference": "IMMUNIZATION-2021-99",
+        "title": "COVID-19 & Tetanus Immunization",
+        "author": "Civil Health Center Ahmedabad",
+        "date": "2021-09-20",
+        "fhirResource": {
+          "resourceType": "Immunization",
+          "status": "completed",
+          "vaccineCode": {
+            "text": "COVID-19 Vaccine (Covishield)"
+          }
+        },
+        "summary": {
+          "vaccine": "Covishield (Dose 1 & 2)",
+          "status": "Completed",
+          "boosterDate": "2022-04-10"
+        }
+      },
+      {
+        "id": "ec678bfe-3de1-433f-a9e5-1da18e7a2796",
+        "consentId": "CONSENT-ARTEFACT-WEBHOOK-999",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "WellnessRecord",
+        "careContextReference": "WELLNESS-2026-01",
+        "title": "Annual Physical & Wellness Assessment",
+        "author": "Dr. Sharma, MD",
+        "date": "2026-10-10",
+        "fhirResource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "category": [
+            {
+              "text": "vital-signs"
+            }
+          ]
+        },
+        "summary": {
+          "height": "178 cm",
+          "weight": "72 kg",
+          "BMI": "22.7 (Normal weight)",
+          "bloodSugarFasting": "92 mg/dL (Normal)",
+          "lifestyleAdvice": "Regular moderate aerobic exercise (30 mins/day)"
+        }
+      }
+    ],
+    "CONSENT-3D1AF229": [
+      {
+        "id": "d16aa2c6-700b-4375-9e67-50e7068004ba",
+        "consentId": "CONSENT-3D1AF229",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "OPConsultation",
+        "careContextReference": "OPD-VISIT-2026-9901",
+        "title": "General Medicine Consultation",
+        "author": "Dr. Sharma, MD",
+        "date": "2026-11-05",
+        "fhirResource": {
+          "resourceType": "Bundle",
+          "type": "document",
+          "entry": [
+            {
+              "resource": {
+                "resourceType": "Composition",
+                "status": "final",
+                "type": {
+                  "text": "OP Consultation Note"
+                },
+                "title": "OPD Visit Consultation"
+              }
+            },
+            {
+              "resource": {
+                "resourceType": "Condition",
+                "code": {
+                  "text": "Acute Viral Pharyngitis & Mild Fever"
+                }
+              }
+            }
+          ]
+        },
+        "summary": {
+          "chiefComplaint": "Fever (100.2 F) and sore throat for 2 days",
+          "diagnosis": "Acute Viral Pharyngitis",
+          "vitals": {
+            "BP": "120/80 mmHg",
+            "Pulse": "78 bpm",
+            "Temp": "100.2 F",
+            "SpO2": "99%"
+          },
+          "advice": "Adequate hydration, warm saline gargles, and review if fever persists."
+        }
+      },
+      {
+        "id": "f8e28eaa-be98-4bbc-934c-4b44ec254336",
+        "consentId": "CONSENT-3D1AF229",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "Prescription",
+        "careContextReference": "PRESCRIPTION-2026-88",
+        "title": "Cardio & Fever Prescription",
+        "author": "Dr. Sharma, MD",
+        "date": "2026-11-05",
+        "fhirResource": {
+          "resourceType": "MedicationRequest",
+          "status": "active",
+          "intent": "order",
+          "medicationCodeableConcept": {
+            "text": "Paracetamol 650mg & Azithromycin 500mg"
+          }
+        },
+        "summary": {
+          "medications": [
+            {
+              "name": "Paracetamol 650mg",
+              "dosage": "1 tablet TDS after meals",
+              "duration": "3 days"
+            },
+            {
+              "name": "Azithromycin 500mg",
+              "dosage": "1 tablet OD",
+              "duration": "3 days"
+            },
+            {
+              "name": "Vitamin C 500mg",
+              "dosage": "1 tablet daily",
+              "duration": "7 days"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c803d24f-4a63-4a0f-801f-91abab20b062",
+        "consentId": "CONSENT-3D1AF229",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "DischargeSummary",
+        "careContextReference": "IPD-DISCHARGE-2025-44",
+        "title": "Hospital Discharge Summary",
+        "author": "Dr. R. Mehta, Senior Consultant",
+        "date": "2025-08-15",
+        "fhirResource": {
+          "resourceType": "ClinicalImpression",
+          "status": "completed",
+          "description": "Patient recovered uneventfully following elective observation."
+        },
+        "summary": {
+          "admissionDate": "2025-08-12",
+          "dischargeDate": "2025-08-15",
+          "dischargeCondition": "Stable, ambulatory",
+          "treatmentGiven": "Supportive IV fluids, antibiotics, monitoring"
+        }
+      },
+      {
+        "id": "319e7312-1a09-448c-a878-0a634c62e68f",
+        "consentId": "CONSENT-3D1AF229",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "DiagnosticReport",
+        "careContextReference": "LAB-REPORT-2026-301",
+        "title": "Complete Blood Count (CBC) & Lipid Profile",
+        "author": "Dr. K. Patel, Pathologist",
+        "date": "2026-11-04",
+        "fhirResource": {
+          "resourceType": "DiagnosticReport",
+          "status": "final",
+          "code": {
+            "text": "Complete Blood Count"
+          }
+        },
+        "summary": {
+          "hemoglobin": "14.8 g/dL (Normal)",
+          "WBC": "7,200 /mcL (Normal)",
+          "platelets": "240,000 /mcL (Normal)",
+          "totalCholesterol": "175 mg/dL (Desirable)"
+        }
+      },
+      {
+        "id": "ffaa531b-7023-4702-8b7b-410dac790f43",
+        "consentId": "CONSENT-3D1AF229",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "ImmunizationRecord",
+        "careContextReference": "IMMUNIZATION-2021-99",
+        "title": "COVID-19 & Tetanus Immunization",
+        "author": "Civil Health Center Ahmedabad",
+        "date": "2021-09-20",
+        "fhirResource": {
+          "resourceType": "Immunization",
+          "status": "completed",
+          "vaccineCode": {
+            "text": "COVID-19 Vaccine (Covishield)"
+          }
+        },
+        "summary": {
+          "vaccine": "Covishield (Dose 1 & 2)",
+          "status": "Completed",
+          "boosterDate": "2022-04-10"
+        }
+      },
+      {
+        "id": "c2e0ec76-29ba-46bc-a2c8-9acca2eb1ada",
+        "consentId": "CONSENT-3D1AF229",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "WellnessRecord",
+        "careContextReference": "WELLNESS-2026-01",
+        "title": "Annual Physical & Wellness Assessment",
+        "author": "Dr. Sharma, MD",
+        "date": "2026-10-10",
+        "fhirResource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "category": [
+            {
+              "text": "vital-signs"
+            }
+          ]
+        },
+        "summary": {
+          "height": "178 cm",
+          "weight": "72 kg",
+          "BMI": "22.7 (Normal weight)",
+          "bloodSugarFasting": "92 mg/dL (Normal)",
+          "lifestyleAdvice": "Regular moderate aerobic exercise (30 mins/day)"
+        }
+      }
+    ],
+    "CONSENT-DEMO-2026-01": [
+      {
+        "id": "rec-op-01",
+        "consentId": "CONSENT-DEMO-2026-01",
+        "patientId": "demopatient@sbx",
+        "hiType": "OPConsultation",
+        "careContextReference": "OPD-VISIT-2026-9901",
+        "title": "General Medicine Consultation",
+        "author": "Dr. Sharma, MD",
+        "date": "2026-11-05",
+        "fhirResource": {
+          "resourceType": "Bundle",
+          "type": "document",
+          "entry": [
+            {
+              "resource": {
+                "resourceType": "Composition",
+                "status": "final",
+                "type": {
+                  "text": "OP Consultation Note"
+                },
+                "title": "OPD Visit Consultation"
+              }
+            },
+            {
+              "resource": {
+                "resourceType": "Condition",
+                "code": {
+                  "text": "Acute Viral Pharyngitis & Mild Fever"
+                }
+              }
+            }
+          ]
+        },
+        "summary": {
+          "chiefComplaint": "Fever (100.2 F) and sore throat for 2 days",
+          "diagnosis": "Acute Viral Pharyngitis",
+          "vitals": {
+            "BP": "120/80 mmHg",
+            "Pulse": "78 bpm",
+            "Temp": "100.2 F",
+            "SpO2": "99%"
+          },
+          "advice": "Adequate hydration, warm saline gargles, and review if fever persists."
+        }
+      },
+      {
+        "id": "rec-rx-01",
+        "consentId": "CONSENT-DEMO-2026-01",
+        "patientId": "demopatient@sbx",
+        "hiType": "Prescription",
+        "careContextReference": "PRESCRIPTION-2026-88",
+        "title": "Cardio & Fever Prescription",
+        "author": "Dr. Sharma, MD",
+        "date": "2026-11-05",
+        "fhirResource": {
+          "resourceType": "MedicationRequest",
+          "status": "active",
+          "intent": "order",
+          "medicationCodeableConcept": {
+            "text": "Paracetamol 650mg & Azithromycin 500mg"
+          }
+        },
+        "summary": {
+          "medications": [
+            {
+              "name": "Paracetamol 650mg",
+              "dosage": "1 tablet TDS after meals",
+              "duration": "3 days"
+            },
+            {
+              "name": "Azithromycin 500mg",
+              "dosage": "1 tablet OD",
+              "duration": "3 days"
+            },
+            {
+              "name": "Vitamin C 500mg",
+              "dosage": "1 tablet daily",
+              "duration": "7 days"
+            }
+          ]
+        }
+      },
+      {
+        "id": "rec-ds-01",
+        "consentId": "CONSENT-DEMO-2026-01",
+        "patientId": "demopatient@sbx",
+        "hiType": "DischargeSummary",
+        "careContextReference": "IPD-DISCHARGE-2025-44",
+        "title": "Hospital Discharge Summary",
+        "author": "Dr. R. Mehta, Senior Consultant",
+        "date": "2025-08-15",
+        "fhirResource": {
+          "resourceType": "ClinicalImpression",
+          "status": "completed",
+          "description": "Patient recovered uneventfully following elective observation."
+        },
+        "summary": {
+          "admissionDate": "2025-08-12",
+          "dischargeDate": "2025-08-15",
+          "dischargeCondition": "Stable, ambulatory",
+          "treatmentGiven": "Supportive IV fluids, antibiotics, monitoring"
+        }
+      },
+      {
+        "id": "rec-lab-01",
+        "consentId": "CONSENT-DEMO-2026-01",
+        "patientId": "demopatient@sbx",
+        "hiType": "DiagnosticReport",
+        "careContextReference": "LAB-REPORT-2026-301",
+        "title": "Complete Blood Count (CBC) & Lipid Profile",
+        "author": "Dr. K. Patel, Pathologist",
+        "date": "2026-11-04",
+        "fhirResource": {
+          "resourceType": "DiagnosticReport",
+          "status": "final",
+          "code": {
+            "text": "Complete Blood Count"
+          }
+        },
+        "summary": {
+          "hemoglobin": "14.8 g/dL (Normal)",
+          "WBC": "7,200 /mcL (Normal)",
+          "platelets": "240,000 /mcL (Normal)",
+          "totalCholesterol": "175 mg/dL (Desirable)"
+        }
+      },
+      {
+        "id": "rec-im-01",
+        "consentId": "CONSENT-DEMO-2026-01",
+        "patientId": "demopatient@sbx",
+        "hiType": "ImmunizationRecord",
+        "careContextReference": "IMMUNIZATION-2021-99",
+        "title": "COVID-19 & Tetanus Immunization",
+        "author": "Civil Health Center Ahmedabad",
+        "date": "2021-09-20",
+        "fhirResource": {
+          "resourceType": "Immunization",
+          "status": "completed",
+          "vaccineCode": {
+            "text": "COVID-19 Vaccine (Covishield)"
+          }
+        },
+        "summary": {
+          "vaccine": "Covishield (Dose 1 & 2)",
+          "status": "Completed",
+          "boosterDate": "2022-04-10"
+        }
+      },
+      {
+        "id": "rec-well-01",
+        "consentId": "CONSENT-DEMO-2026-01",
+        "patientId": "demopatient@sbx",
+        "hiType": "WellnessRecord",
+        "careContextReference": "WELLNESS-2026-01",
+        "title": "Annual Physical & Wellness Assessment",
+        "author": "Dr. Sharma, MD",
+        "date": "2026-10-10",
+        "fhirResource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "category": [
+            {
+              "text": "vital-signs"
+            }
+          ]
+        },
+        "summary": {
+          "height": "178 cm",
+          "weight": "72 kg",
+          "BMI": "22.7 (Normal weight)",
+          "bloodSugarFasting": "92 mg/dL (Normal)",
+          "lifestyleAdvice": "Regular moderate aerobic exercise (30 mins/day)"
+        }
+      }
+    ],
+    "CONSENT-D0EEE069": [
+      {
+        "id": "cc07574f-0521-4ae1-b2a8-27ca351d1224",
+        "consentId": "CONSENT-D0EEE069",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "OPConsultation",
+        "careContextReference": "OPD-VISIT-2026-9901",
+        "title": "General Medicine Consultation",
+        "author": "Dr. Sharma, MD",
+        "date": "2026-11-05",
+        "fhirResource": {
+          "resourceType": "Bundle",
+          "type": "document",
+          "entry": [
+            {
+              "resource": {
+                "resourceType": "Composition",
+                "status": "final",
+                "type": {
+                  "text": "OP Consultation Note"
+                },
+                "title": "OPD Visit Consultation"
+              }
+            },
+            {
+              "resource": {
+                "resourceType": "Condition",
+                "code": {
+                  "text": "Acute Viral Pharyngitis & Mild Fever"
+                }
+              }
+            }
+          ]
+        },
+        "summary": {
+          "chiefComplaint": "Fever (100.2 F) and sore throat for 2 days",
+          "diagnosis": "Acute Viral Pharyngitis",
+          "vitals": {
+            "BP": "120/80 mmHg",
+            "Pulse": "78 bpm",
+            "Temp": "100.2 F",
+            "SpO2": "99%"
+          },
+          "advice": "Adequate hydration, warm saline gargles, and review if fever persists."
+        }
+      },
+      {
+        "id": "5d2e4e8d-989d-4df7-8df8-14d065ebc3b4",
+        "consentId": "CONSENT-D0EEE069",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "Prescription",
+        "careContextReference": "PRESCRIPTION-2026-88",
+        "title": "Cardio & Fever Prescription",
+        "author": "Dr. Sharma, MD",
+        "date": "2026-11-05",
+        "fhirResource": {
+          "resourceType": "MedicationRequest",
+          "status": "active",
+          "intent": "order",
+          "medicationCodeableConcept": {
+            "text": "Paracetamol 650mg & Azithromycin 500mg"
+          }
+        },
+        "summary": {
+          "medications": [
+            {
+              "name": "Paracetamol 650mg",
+              "dosage": "1 tablet TDS after meals",
+              "duration": "3 days"
+            },
+            {
+              "name": "Azithromycin 500mg",
+              "dosage": "1 tablet OD",
+              "duration": "3 days"
+            },
+            {
+              "name": "Vitamin C 500mg",
+              "dosage": "1 tablet daily",
+              "duration": "7 days"
+            }
+          ]
+        }
+      },
+      {
+        "id": "3a4d8226-e2e8-4aa3-b7f3-06806b021e36",
+        "consentId": "CONSENT-D0EEE069",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "DischargeSummary",
+        "careContextReference": "IPD-DISCHARGE-2025-44",
+        "title": "Hospital Discharge Summary",
+        "author": "Dr. R. Mehta, Senior Consultant",
+        "date": "2025-08-15",
+        "fhirResource": {
+          "resourceType": "ClinicalImpression",
+          "status": "completed",
+          "description": "Patient recovered uneventfully following elective observation."
+        },
+        "summary": {
+          "admissionDate": "2025-08-12",
+          "dischargeDate": "2025-08-15",
+          "dischargeCondition": "Stable, ambulatory",
+          "treatmentGiven": "Supportive IV fluids, antibiotics, monitoring"
+        }
+      },
+      {
+        "id": "c4de9a5e-6062-498a-b6d7-5645afe56c42",
+        "consentId": "CONSENT-D0EEE069",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "DiagnosticReport",
+        "careContextReference": "LAB-REPORT-2026-301",
+        "title": "Complete Blood Count (CBC) & Lipid Profile",
+        "author": "Dr. K. Patel, Pathologist",
+        "date": "2026-11-04",
+        "fhirResource": {
+          "resourceType": "DiagnosticReport",
+          "status": "final",
+          "code": {
+            "text": "Complete Blood Count"
+          }
+        },
+        "summary": {
+          "hemoglobin": "14.8 g/dL (Normal)",
+          "WBC": "7,200 /mcL (Normal)",
+          "platelets": "240,000 /mcL (Normal)",
+          "totalCholesterol": "175 mg/dL (Desirable)"
+        }
+      },
+      {
+        "id": "feafc1cd-ab79-4c83-9522-60057e84f262",
+        "consentId": "CONSENT-D0EEE069",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "ImmunizationRecord",
+        "careContextReference": "IMMUNIZATION-2021-99",
+        "title": "COVID-19 & Tetanus Immunization",
+        "author": "Civil Health Center Ahmedabad",
+        "date": "2021-09-20",
+        "fhirResource": {
+          "resourceType": "Immunization",
+          "status": "completed",
+          "vaccineCode": {
+            "text": "COVID-19 Vaccine (Covishield)"
+          }
+        },
+        "summary": {
+          "vaccine": "Covishield (Dose 1 & 2)",
+          "status": "Completed",
+          "boosterDate": "2022-04-10"
+        }
+      },
+      {
+        "id": "8dcef0f7-e39e-4fd9-a258-4feb3d7eafd9",
+        "consentId": "CONSENT-D0EEE069",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "WellnessRecord",
+        "careContextReference": "WELLNESS-2026-01",
+        "title": "Annual Physical & Wellness Assessment",
+        "author": "Dr. Sharma, MD",
+        "date": "2026-10-10",
+        "fhirResource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "category": [
+            {
+              "text": "vital-signs"
+            }
+          ]
+        },
+        "summary": {
+          "height": "178 cm",
+          "weight": "72 kg",
+          "BMI": "22.7 (Normal weight)",
+          "bloodSugarFasting": "92 mg/dL (Normal)",
+          "lifestyleAdvice": "Regular moderate aerobic exercise (30 mins/day)"
+        }
+      }
+    ],
+    "CONSENT-7B1A1BDF": [
+      {
+        "id": "45330dcc-c5f4-43f4-8746-75b034940c94",
+        "consentId": "CONSENT-7B1A1BDF",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "OPConsultation",
+        "careContextReference": "OPD-VISIT-2026-9901",
+        "title": "General Medicine Consultation",
+        "author": "Dr. Sharma, MD",
+        "date": "2026-11-05",
+        "fhirResource": {
+          "resourceType": "Bundle",
+          "type": "document",
+          "entry": [
+            {
+              "resource": {
+                "resourceType": "Composition",
+                "status": "final",
+                "type": {
+                  "text": "OP Consultation Note"
+                },
+                "title": "OPD Visit Consultation"
+              }
+            },
+            {
+              "resource": {
+                "resourceType": "Condition",
+                "code": {
+                  "text": "Acute Viral Pharyngitis & Mild Fever"
+                }
+              }
+            }
+          ]
+        },
+        "summary": {
+          "chiefComplaint": "Fever (100.2 F) and sore throat for 2 days",
+          "diagnosis": "Acute Viral Pharyngitis",
+          "vitals": {
+            "BP": "120/80 mmHg",
+            "Pulse": "78 bpm",
+            "Temp": "100.2 F",
+            "SpO2": "99%"
+          },
+          "advice": "Adequate hydration, warm saline gargles, and review if fever persists."
+        }
+      },
+      {
+        "id": "7f0ddfa9-cc06-4492-8647-246fbce332fc",
+        "consentId": "CONSENT-7B1A1BDF",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "Prescription",
+        "careContextReference": "PRESCRIPTION-2026-88",
+        "title": "Cardio & Fever Prescription",
+        "author": "Dr. Sharma, MD",
+        "date": "2026-11-05",
+        "fhirResource": {
+          "resourceType": "MedicationRequest",
+          "status": "active",
+          "intent": "order",
+          "medicationCodeableConcept": {
+            "text": "Paracetamol 650mg & Azithromycin 500mg"
+          }
+        },
+        "summary": {
+          "medications": [
+            {
+              "name": "Paracetamol 650mg",
+              "dosage": "1 tablet TDS after meals",
+              "duration": "3 days"
+            },
+            {
+              "name": "Azithromycin 500mg",
+              "dosage": "1 tablet OD",
+              "duration": "3 days"
+            },
+            {
+              "name": "Vitamin C 500mg",
+              "dosage": "1 tablet daily",
+              "duration": "7 days"
+            }
+          ]
+        }
+      },
+      {
+        "id": "1dee2b01-1009-4607-9897-fba94775fb53",
+        "consentId": "CONSENT-7B1A1BDF",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "DischargeSummary",
+        "careContextReference": "IPD-DISCHARGE-2025-44",
+        "title": "Hospital Discharge Summary",
+        "author": "Dr. R. Mehta, Senior Consultant",
+        "date": "2025-08-15",
+        "fhirResource": {
+          "resourceType": "ClinicalImpression",
+          "status": "completed",
+          "description": "Patient recovered uneventfully following elective observation."
+        },
+        "summary": {
+          "admissionDate": "2025-08-12",
+          "dischargeDate": "2025-08-15",
+          "dischargeCondition": "Stable, ambulatory",
+          "treatmentGiven": "Supportive IV fluids, antibiotics, monitoring"
+        }
+      },
+      {
+        "id": "416fff87-9d32-4d6e-b695-636124e5dcae",
+        "consentId": "CONSENT-7B1A1BDF",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "DiagnosticReport",
+        "careContextReference": "LAB-REPORT-2026-301",
+        "title": "Complete Blood Count (CBC) & Lipid Profile",
+        "author": "Dr. K. Patel, Pathologist",
+        "date": "2026-11-04",
+        "fhirResource": {
+          "resourceType": "DiagnosticReport",
+          "status": "final",
+          "code": {
+            "text": "Complete Blood Count"
+          }
+        },
+        "summary": {
+          "hemoglobin": "14.8 g/dL (Normal)",
+          "WBC": "7,200 /mcL (Normal)",
+          "platelets": "240,000 /mcL (Normal)",
+          "totalCholesterol": "175 mg/dL (Desirable)"
+        }
+      },
+      {
+        "id": "6034b443-354a-4c1c-b560-b3716ca6c9da",
+        "consentId": "CONSENT-7B1A1BDF",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "ImmunizationRecord",
+        "careContextReference": "IMMUNIZATION-2021-99",
+        "title": "COVID-19 & Tetanus Immunization",
+        "author": "Civil Health Center Ahmedabad",
+        "date": "2021-09-20",
+        "fhirResource": {
+          "resourceType": "Immunization",
+          "status": "completed",
+          "vaccineCode": {
+            "text": "COVID-19 Vaccine (Covishield)"
+          }
+        },
+        "summary": {
+          "vaccine": "Covishield (Dose 1 & 2)",
+          "status": "Completed",
+          "boosterDate": "2022-04-10"
+        }
+      },
+      {
+        "id": "1256cd6b-2ec1-406b-9089-b5e1107a2052",
+        "consentId": "CONSENT-7B1A1BDF",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "WellnessRecord",
+        "careContextReference": "WELLNESS-2026-01",
+        "title": "Annual Physical & Wellness Assessment",
+        "author": "Dr. Sharma, MD",
+        "date": "2026-10-10",
+        "fhirResource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "category": [
+            {
+              "text": "vital-signs"
+            }
+          ]
+        },
+        "summary": {
+          "height": "178 cm",
+          "weight": "72 kg",
+          "BMI": "22.7 (Normal weight)",
+          "bloodSugarFasting": "92 mg/dL (Normal)",
+          "lifestyleAdvice": "Regular moderate aerobic exercise (30 mins/day)"
+        }
+      }
+    ],
+    "CONSENT-C06D8CE8": [
+      {
+        "id": "568819d8-a84b-4582-9b13-50de424c700d",
+        "consentId": "CONSENT-C06D8CE8",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "OPConsultation",
+        "careContextReference": "OPD-VISIT-2026-9901",
+        "title": "General Medicine Consultation",
+        "author": "Dr. Sharma, MD",
+        "date": "2026-11-05",
+        "fhirResource": {
+          "resourceType": "Bundle",
+          "type": "document",
+          "entry": [
+            {
+              "resource": {
+                "resourceType": "Composition",
+                "status": "final",
+                "type": {
+                  "text": "OP Consultation Note"
+                },
+                "title": "OPD Visit Consultation"
+              }
+            },
+            {
+              "resource": {
+                "resourceType": "Condition",
+                "code": {
+                  "text": "Acute Viral Pharyngitis & Mild Fever"
+                }
+              }
+            }
+          ]
+        },
+        "summary": {
+          "chiefComplaint": "Fever (100.2 F) and sore throat for 2 days",
+          "diagnosis": "Acute Viral Pharyngitis",
+          "vitals": {
+            "BP": "120/80 mmHg",
+            "Pulse": "78 bpm",
+            "Temp": "100.2 F",
+            "SpO2": "99%"
+          },
+          "advice": "Adequate hydration, warm saline gargles, and review if fever persists."
+        }
+      },
+      {
+        "id": "448ec287-dab7-4553-b9c0-821466b81ed2",
+        "consentId": "CONSENT-C06D8CE8",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "Prescription",
+        "careContextReference": "PRESCRIPTION-2026-88",
+        "title": "Cardio & Fever Prescription",
+        "author": "Dr. Sharma, MD",
+        "date": "2026-11-05",
+        "fhirResource": {
+          "resourceType": "MedicationRequest",
+          "status": "active",
+          "intent": "order",
+          "medicationCodeableConcept": {
+            "text": "Paracetamol 650mg & Azithromycin 500mg"
+          }
+        },
+        "summary": {
+          "medications": [
+            {
+              "name": "Paracetamol 650mg",
+              "dosage": "1 tablet TDS after meals",
+              "duration": "3 days"
+            },
+            {
+              "name": "Azithromycin 500mg",
+              "dosage": "1 tablet OD",
+              "duration": "3 days"
+            },
+            {
+              "name": "Vitamin C 500mg",
+              "dosage": "1 tablet daily",
+              "duration": "7 days"
+            }
+          ]
+        }
+      },
+      {
+        "id": "c4dcc639-55be-46fd-9b41-6256b33ce593",
+        "consentId": "CONSENT-C06D8CE8",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "DischargeSummary",
+        "careContextReference": "IPD-DISCHARGE-2025-44",
+        "title": "Hospital Discharge Summary",
+        "author": "Dr. R. Mehta, Senior Consultant",
+        "date": "2025-08-15",
+        "fhirResource": {
+          "resourceType": "ClinicalImpression",
+          "status": "completed",
+          "description": "Patient recovered uneventfully following elective observation."
+        },
+        "summary": {
+          "admissionDate": "2025-08-12",
+          "dischargeDate": "2025-08-15",
+          "dischargeCondition": "Stable, ambulatory",
+          "treatmentGiven": "Supportive IV fluids, antibiotics, monitoring"
+        }
+      },
+      {
+        "id": "17930f91-9668-4197-b720-1d166b067064",
+        "consentId": "CONSENT-C06D8CE8",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "DiagnosticReport",
+        "careContextReference": "LAB-REPORT-2026-301",
+        "title": "Complete Blood Count (CBC) & Lipid Profile",
+        "author": "Dr. K. Patel, Pathologist",
+        "date": "2026-11-04",
+        "fhirResource": {
+          "resourceType": "DiagnosticReport",
+          "status": "final",
+          "code": {
+            "text": "Complete Blood Count"
+          }
+        },
+        "summary": {
+          "hemoglobin": "14.8 g/dL (Normal)",
+          "WBC": "7,200 /mcL (Normal)",
+          "platelets": "240,000 /mcL (Normal)",
+          "totalCholesterol": "175 mg/dL (Desirable)"
+        }
+      },
+      {
+        "id": "3b9ab2fd-5a81-4641-a31a-430f86ef5c4f",
+        "consentId": "CONSENT-C06D8CE8",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "ImmunizationRecord",
+        "careContextReference": "IMMUNIZATION-2021-99",
+        "title": "COVID-19 & Tetanus Immunization",
+        "author": "Civil Health Center Ahmedabad",
+        "date": "2021-09-20",
+        "fhirResource": {
+          "resourceType": "Immunization",
+          "status": "completed",
+          "vaccineCode": {
+            "text": "COVID-19 Vaccine (Covishield)"
+          }
+        },
+        "summary": {
+          "vaccine": "Covishield (Dose 1 & 2)",
+          "status": "Completed",
+          "boosterDate": "2022-04-10"
+        }
+      },
+      {
+        "id": "17a54584-128a-4d02-930e-0fdaadd73ac7",
+        "consentId": "CONSENT-C06D8CE8",
+        "patientId": "mansurijiyan2004@sbx",
+        "hiType": "WellnessRecord",
+        "careContextReference": "WELLNESS-2026-01",
+        "title": "Annual Physical & Wellness Assessment",
+        "author": "Dr. Sharma, MD",
+        "date": "2026-10-10",
+        "fhirResource": {
+          "resourceType": "Observation",
+          "status": "final",
+          "category": [
+            {
+              "text": "vital-signs"
+            }
+          ]
+        },
+        "summary": {
+          "height": "178 cm",
+          "weight": "72 kg",
+          "BMI": "22.7 (Normal weight)",
+          "bloodSugarFasting": "92 mg/dL (Normal)",
+          "lifestyleAdvice": "Regular moderate aerobic exercise (30 mins/day)"
+        }
+      }
+    ]
+  }
+}

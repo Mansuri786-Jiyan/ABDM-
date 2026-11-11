@@ -1,0 +1,57 @@
+$kind: http-example
+request:
+  url: "{{baseUrl}}/api/hiecm/gateway/v3/certs"
+  method: GET
+  headers:
+    - key: REQUEST-ID
+      value: 18235d89-cb13-479d-ad71-7a57d5f669a8
+      description: Unique UUID for track the end to end request transaction
+    - key: TIMESTAMP
+      value: 2022-10-06T15:10:00.587Z
+      description: Actual time of the request was initiated, ISO 8601 represents date and time by starting with the year, followed by the month, the day, the hour, the minutes, seconds and milliseconds
+    - key: X-CM-ID
+      value: sbx
+      description: Suffix of the consent manager to which the request was intended
+    - key: Accept
+      value: application/json
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    Content-Type: application/json
+  body:
+    type: json
+    content: |-
+      {
+        "keys": [
+          {
+            "e": "AQAB",
+            "kid": "AlRb5WCm8Tm9EJ_IfO9z06j9oCv51pKK",
+            "kty": "RSA",
+            "n": "mgmW7W5ZGF_G5cJevwYi8HiPcI-6qS_psnZxa4v3bkwAkyOoOd8-6ketrOI-ZA2PbRbGnxFfZHiI94rdFXJ4Q9ampscsz9NocTIPMPmWydJ8A50pZaYWyikYDSJiDltq7i3WspPKSOuQHr",
+            "use": "sig",
+            "x5c": [
+              "MIICrzCCAZcCBgFy/3WZBjANBgkqhkiG9w0BAQsFADAbMRkwFwYDVQQDDBBjZW50cmFsLXJlZ2lzdHJ5MB4XDTIwMDYyOTA5NDEzNloXDTMwMDYyOTA5NDMxNlowGzEZMBcGA1UEAwwQY2VudHJhbC1yZWdpc3RyeTCCASIwDQYJK",
+              "MIICrzCCAZcCBgFy/3WZBjANBgkqhkiG9w0BAQsFADAbMRkwFwYDVQQDDBBjZW50cmFsLXJlZ2lzdHJ5MB4XDTIwMDYyOTA5NDEzNloXDTMwMDYyOTA5NDMxNlowGzEZMBcGA1UEAwwQY2VudHJhbC1yZWdpc3RyeTCCASIwDQYJK"
+            ],
+            "x5t": "EaMhYGUIvMkp8tvS",
+            "x5t2": "vGer6Pt8AhZn8RlbHhAFksOCcGf3u1UWU7Qq",
+            "alg": "RS256"
+          },
+          {
+            "e": "AQAB",
+            "kid": "AlRb5WCm8Tm9EJ_IfO9z06j9oCv51pKK",
+            "kty": "RSA",
+            "n": "mgmW7W5ZGF_G5cJevwYi8HiPcI-6qS_psnZxa4v3bkwAkyOoOd8-6ketrOI-ZA2PbRbGnxFfZHiI94rdFXJ4Q9ampscsz9NocTIPMPmWydJ8A50pZaYWyikYDSJiDltq7i3WspPKSOuQHr",
+            "use": "sig",
+            "x5c": [
+              "MIICrzCCAZcCBgFy/3WZBjANBgkqhkiG9w0BAQsFADAbMRkwFwYDVQQDDBBjZW50cmFsLXJlZ2lzdHJ5MB4XDTIwMDYyOTA5NDEzNloXDTMwMDYyOTA5NDMxNlowGzEZMBcGA1UEAwwQY2VudHJhbC1yZWdpc3RyeTCCASIwDQYJK",
+              "MIICrzCCAZcCBgFy/3WZBjANBgkqhkiG9w0BAQsFADAbMRkwFwYDVQQDDBBjZW50cmFsLXJlZ2lzdHJ5MB4XDTIwMDYyOTA5NDEzNloXDTMwMDYyOTA5NDMxNlowGzEZMBcGA1UEAwwQY2VudHJhbC1yZWdpc3RyeTCCASIwDQYJK"
+            ],
+            "x5t": "EaMhYGUIvMkp8tvS",
+            "x5t2": "vGer6Pt8AhZn8RlbHhAFksOCcGf3u1UWU7Qq",
+            "alg": "RS256"
+          }
+        ]
+      }
+order: 1000

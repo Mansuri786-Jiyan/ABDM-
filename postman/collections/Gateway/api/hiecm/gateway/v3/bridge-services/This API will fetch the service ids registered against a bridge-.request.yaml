@@ -1,0 +1,24 @@
+$kind: http-request
+name: This API will fetch the service ids registered against a bridge.
+description: This API is designed to retrieve the unique identifiers, known as service IDs, that are associated with a specific bridge. In this context, a bridge acts as an intermediary component that connects various services or networks, enabling them to communicate with each other. When you call this API, it queries the bridge to gather a list of all the service IDs that have been registered with it.
+url: "{{baseUrl}}/api/hiecm/gateway/v3/bridge-services"
+method: GET
+headers:
+  - key: REQUEST-ID
+    value: 18235d89-cb13-479d-ad71-7a57d5f669a8
+    description: Unique UUID for track the end to end request transaction
+  - key: TIMESTAMP
+    value: 2022-10-06T15:10:00.587Z
+    description: Actual time of the request was initiated, ISO 8601 represents date and time by starting with the year, followed by the month, the day, the hour, the minutes, seconds and milliseconds
+  - key: X-CM-ID
+    value: sbx
+    description: Suffix of the consent manager to which the request was intended
+  - key: Accept
+    value: application/json
+auth:
+  type: bearer
+  credentials:
+    token: "{{bearerToken}}"
+settings: {}
+examples: ./.resources/This API will fetch the service ids registered against a bridge-.resources/examples
+order: 1000

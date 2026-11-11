@@ -1,0 +1,161 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Hospital {
+  id                String                 @id @default(uuid())
+  name              String
+  code              String                 @unique
+  email             String
+  phone             String?
+  address           String?
+  isActive          Boolean                @default(true)
+  createdAt         DateTime               @default(now())
+  updatedAt         DateTime               @updatedAt
+
+  clients           ConnectorClient[]
+  configurations    ABDMConfiguration[]
+  transactions      ABHATransaction[]
+  patientReferences ABHAPatientReference[]
+  auditLogs         AuditLog[]
+
+  @@map("hospitals")
+}
+
+model ConnectorClient {
+  id               String            @id @default(uuid())
+  hospitalId       String
+  clientId         String            @unique
+  clientSecretHash String
+  name             String
+  isActive         Boolean           @default(true)
+  rateLimit        Int               @default(100)
+  lastUsedAt       DateTime?
+  createdAt        DateTime          @default(now())
+  updatedAt        DateTime          @updatedAt
+
+  hospital         Hospital          @relation(fields: [hospitalId], references: [id], onDelete: Cascade)
+  transactions     ABHATransaction[]
+  auditLogs        AuditLog[]
+
+  @@index([hospitalId])
+  @@index([clientId])
+  @@map("connector_clients")
+}
+
+model ABDMConfiguration {
+  id                    String      @id @default(uuid())
+  hospitalId            String
+  env                   String      @default("sandbox") // "sandbox" | "production"
+  clientId              String
+  clientSecretEncrypted String
+  gatewayUrl            String
+  abhaUrl               String
+  cmId                  String      @default("sbx")
+  isActive              Boolean     @default(true)
+  createdAt             DateTime    @default(now())
+  updatedAt             DateTime    @updatedAt
+
+  hospital              Hospital    @relation(fields: [hospitalId], references: [id], onDelete: Cascade)
+  tokens                ABDMToken[]
+
+  @@index([hospitalId])
+  @@index([env])
+  @@map("abdm_configurations")
+}
+
+model ABDMToken {
+  id              String             @id @default(uuid())
+  configurationId String?
+  tokenType       String             @default("bearer")
+  accessToken     String             @db.Text
+  refreshToken    String?            @db.Text
+  expiresIn       Int
+  expiresAt       DateTime
+  isActive        Boolean            @default(true)
+  createdAt       DateTime           @default(now())
+  updatedAt       DateTime           @updatedAt
+
+  configuration   ABDMConfiguration? @relation(fields: [configurationId], references: [id], onDelete: SetNull)
+
+  @@index([expiresAt])
+  @@index([isActive])
+  @@map("abdm_tokens")
+}
+
+model ABHATransaction {
+  id                 String           @id @default(uuid())
+  hospitalId         String
+  clientId           String
+  patientReferenceId String?
+  abdmTxnId          String?
+  operationType      String
+  status             String           @default("INITIATED")
+  healthIdNumber     String?
+  abhaAddress        String?
+  userToken          String?          @db.Text
+  errorCode          String?
+  errorMessage       String?          @db.Text
+  metadata           Json?
+  createdAt          DateTime         @default(now())
+  updatedAt          DateTime         @updatedAt
+
+  hospital           Hospital         @relation(fields: [hospitalId], references: [id], onDelete: Cascade)
+  client             ConnectorClient  @relation(fields: [clientId], references: [id], onDelete: Cascade)
+
+  @@index([hospitalId])
+  @@index([abdmTxnId])
+  @@index([status])
+  @@index([patientReferenceId])
+  @@map("abha_transactions")
+}
+
+model ABHAPatientReference {
+  id                 String    @id @default(uuid())
+  hospitalId         String
+  patientReferenceId String
+  abdmTxnId          String?
+  healthIdNumber     String?
+  abhaAddress        String?
+  name               String?
+  gender             String?
+  dob                String?
+  mobile             String?
+  status             String    @default("ACTIVE")
+  createdAt          DateTime  @default(now())
+  updatedAt          DateTime  @updatedAt
+
+  hospital           Hospital  @relation(fields: [hospitalId], references: [id], onDelete: Cascade)
+
+  @@unique([hospitalId, patientReferenceId])
+  @@index([healthIdNumber])
+  @@index([abhaAddress])
+  @@map("abha_patient_references")
+}
+
+model AuditLog {
+  id              String           @id @default(uuid())
+  hospitalId      String?
+  clientId        String?
+  endpoint        String
+  method          String
+  statusCode      Int
+  requestIp       String?
+  userAgent       String?          @db.Text
+  executionTimeMs Int
+  transactionId   String?
+  createdAt       DateTime         @default(now())
+
+  hospital        Hospital?        @relation(fields: [hospitalId], references: [id], onDelete: SetNull)
+  client          ConnectorClient? @relation(fields: [clientId], references: [id], onDelete: SetNull)
+
+  @@index([hospitalId])
+  @@index([endpoint])
+  @@index([createdAt])
+  @@map("audit_logs")
+}

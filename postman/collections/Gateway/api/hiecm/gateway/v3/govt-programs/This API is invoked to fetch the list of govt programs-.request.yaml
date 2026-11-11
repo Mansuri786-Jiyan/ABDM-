@@ -1,0 +1,24 @@
+$kind: http-request
+name: This API is invoked to fetch the list of govt programs.
+description: This API is designed to retrieve a list of government programs. When invoked, it queries the system to fetch comprehensive information about various government programs available. This functionality is particularly useful for users who need to access detailed information about different programs.<br></br> <b>Note:</b><p>This api will retrive the list of govt-programs in the form of list.</p>
+url: "{{baseUrl}}/api/hiecm/gateway/v3/govt-programs"
+method: GET
+headers:
+  - key: REQUEST-ID
+    value: 18235d89-cb13-479d-ad71-7a57d5f669a8
+    description: Unique UUID for track the end to end request transaction
+  - key: TIMESTAMP
+    value: 2022-10-06T15:10:00.587Z
+    description: Actual time of the request was initiated, ISO 8601 represents date and time by starting with the year, followed by the month, the day, the hour, the minutes, seconds and milliseconds
+  - key: X-CM-ID
+    value: sbx
+    description: Suffix of the consent manager to which the request was intended
+  - key: Accept
+    value: application/json
+auth:
+  type: bearer
+  credentials:
+    token: "{{bearerToken}}"
+settings: {}
+examples: ./.resources/This API is invoked to fetch the list of govt programs-.resources/examples
+order: 1000

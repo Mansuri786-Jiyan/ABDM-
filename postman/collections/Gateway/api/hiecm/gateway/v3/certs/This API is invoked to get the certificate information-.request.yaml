@@ -1,0 +1,20 @@
+$kind: http-request
+name: This API is invoked to get the certificate information.
+description: This API is used to retrieve certificate information. When invoked, it provides details about the certificates used within the system. These certificates are crucial for ensuring secure communication and authentication between different components of the system. By using this API, users can access the necessary certificate information required for validating secure connections and maintaining the integrity of data exchanges.
+url: "{{baseUrl}}/api/hiecm/gateway/v3/certs"
+method: GET
+headers:
+  - key: REQUEST-ID
+    value: 18235d89-cb13-479d-ad71-7a57d5f669a8
+    description: Unique UUID for track the end to end request transaction
+  - key: TIMESTAMP
+    value: 2022-10-06T15:10:00.587Z
+    description: Actual time of the request was initiated, ISO 8601 represents date and time by starting with the year, followed by the month, the day, the hour, the minutes, seconds and milliseconds
+  - key: X-CM-ID
+    value: sbx
+    description: Suffix of the consent manager to which the request was intended
+  - key: Accept
+    value: application/json
+settings: {}
+examples: ./.resources/This API is invoked to get the certificate information-.resources/examples
+order: 1000

@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: abdm_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgrespassword
+      POSTGRES_DB: abdm_connector
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  abdm-connector:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: abdm_m1_connector
+    restart: unless-stopped
+    ports:
+      - "4000:4000"
+    environment:
+      - NODE_ENV=production
+      - PORT=4000
+      - DATABASE_URL=postgresql://postgres:postgrespassword@postgres:5432/abdm_connector?schema=public
+      - ABDM_ENV=sandbox
+      - ABDM_CLIENT_ID=${ABDM_CLIENT_ID}
+      - ABDM_CLIENT_SECRET=${ABDM_CLIENT_SECRET}
+      - ABDM_GATEWAY_BASE_URL=${ABDM_GATEWAY_BASE_URL:-https://dev.abdm.gov.in/api/hiecm}
+      - ABDM_ABHA_BASE_URL=${ABDM_ABHA_BASE_URL:-https://abhasbx.abdm.gov.in/abha/api/v3}
+      - ABDM_CM_ID=${ABDM_CM_ID:-sbx}
+      - JWT_SECRET=${JWT_SECRET:-super_secret_jwt_key_abdm_connector_2026}
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  postgres_data:
